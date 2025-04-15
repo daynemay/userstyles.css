@@ -1,0 +1,25 @@
+/* body {
+    background-color: #282c34; // Matches miniflux dark mode background :) 
+} */
+
+main > article.reader {
+/*    max-width: 1200px !important; */
+    max-width: 80% !important;
+    font-family: sans-serif !important;
+    line-height: 1.6 !important;
+/*     width: 100%; */
+}
+
+.colormode-dark { 
+/*  --color-textPrimary: #6a8; */
+/*  --color-textPrimary: #6aa; */
+  --color-canvas: #282c34;
+  --color-textPrimary: #7ab;
+  --font-sansSerif: 'Helvetica'
+ 
+}
+
+article { 
+    --card-shadow: none !important;
+}
+
